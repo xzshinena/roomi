@@ -47,7 +47,7 @@ export const Theme = {
   },
 
   // Colors
-  primaryColor: '#8B5CF6', // purple
+  primaryColor: '#10B981', // green
   secondaryColor: '#14B8A6', // teal
   accentColor: '#FB923C', // orange
 
