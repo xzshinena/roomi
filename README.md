@@ -51,13 +51,6 @@ Roomi provides a clean, intuitive interface for managing calendar events and app
 - Daily event list with progress indicators
 - Event icons based on content (meetings, lunch, etc.)
 
-### **Design System**
-- Consistent spacing scale (4px, 8px, 12px, 16px, 20px, 24px)
-- Rounded corner radius system (8px, 12px, 16px, 24px)
-- Soft shadow system with configurable opacity
-- Pastel event colors with matching borders
-- Accessibility-first design with proper labels and touch targets
-
 ## 🏗️ Project Structure
 
 ```
@@ -107,69 +100,6 @@ roomi/
 └── metro.config.js             # Metro bundler configuration
 ```
 
-## 🚀 Getting Started
-
-### **Prerequisites**
-- Node.js 14.17+ installed
-- npm or yarn package manager
-- Expo Go app on your mobile device (for testing)
-
-### **Installation**
-
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd roomi
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start development server**
-   ```bash
-   npx expo start
-   ```
-
-### **Running the App**
-
-Once the development server starts, you'll see a QR code and several options:
-
-**📱 Mobile Testing:**
-- **iOS**: Scan QR code with Camera app or press `i` for iOS Simulator
-- **Android**: Scan QR code with Expo Go app or press `a` for Android Emulator
-
-**💻 Web Testing:**
-- Press `w` to open web version in browser
-- Visit `http://localhost:8081` directly
-
-**🔧 Development:**
-- Press `r` to reload app
-- Press `j` to open debugger
-- Press `m` to toggle menu
-
-## 🎨 Customization
-
-### **Theming**
-Modify `src/theme/Theme.ts` to customize:
-- Primary/secondary colors
-- Spacing and corner radius values
-- Shadow configurations
-- Event color palettes
-
-### **Sample Data**
-Edit `src/shared/SampleData.ts` to:
-- Add new sample events
-- Create different user profiles
-- Test various event types and scenarios
-
-### **Components**
-Each component in `src/components/` is self-contained and can be:
-- Styled independently
-- Extended with new props
-- Reused across different screens
-
 ## 📈 Development Roadmap
 
 ### **Phase 1: Core Features** ✅
@@ -208,26 +138,3 @@ This app was originally developed in **SwiftUI** for iOS-only deployment. The co
 - **Larger developer ecosystem** and community support
 - **Easier deployment and distribution**
 
-The original SwiftUI code is preserved in the `swift-backup/` directory for reference and maintains identical functionality and design.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Expo Team** for the excellent development platform
-- **React Native Community** for comprehensive documentation
-- **Original SwiftUI Design** for the foundational UI/UX patterns
-
----
-
-**Built with ❤️ using React Native and Expo**
